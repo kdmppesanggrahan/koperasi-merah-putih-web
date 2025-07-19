@@ -45,17 +45,19 @@ export default async function FeaturedProducts() {
     // Struktur dan styling JSX Anda di bawah ini tidak diubah sama sekali
     <section className="bg-white py-20">
       <div className="container mx-auto px-6">
-
-        {/* Judul Bagian */}
-        <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 font-serif">
-                Produk & Layanan Unggulan
-            </h2>
-            <p className="text-lg text-gray-500 mt-2">
-                Inilah hasil karya dan layanan terbaik dari anggota Koperasi Merah Putih.
-            </p>
-            <div className="mt-4 w-24 h-1.5 bg-red-600 mx-auto rounded-full"></div>
-        </div>
+         <div className="text-center mb-12">
+                    <span className="text-sm font-semibold text-red-600 bg-red-100 px-3 py-1 rounded-full">
+                        Produk dan Layanan
+                    </span>
+                    <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mt-4">
+                        Kegiatan Usaha
+                    </h2>
+                    <p className="text-lg text-gray-500 mt-2">
+                        Inilah hasil karya dan layanan terbaik dari anggota Koperasi Merah Putih.
+                    </p>
+                    <div className="mt-4 w-24 h-1.5 bg-red-600 mx-auto rounded-full"></div>
+                </div>
+          {/* Grid Layout Editorial */}
 
         {/* Grid Kartu Produk */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

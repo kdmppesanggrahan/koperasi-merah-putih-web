@@ -7,7 +7,7 @@ import About from "@/components/About";
 import FeaturedProducts from "@/components/FeaturedProducts";
 import LatestNews from "@/components/LatestNews";
 import Testimonial from "@/components/Testimonial";
-import PotensiDesa from "@/components/PotensiDesa"; // <-- 1. Impor komponen baru
+import PotensiDesa from "@/components/PotensiDesa";
 import CTA from "@/components/CTA";
 
 export default async function HomePage() {
@@ -20,7 +20,7 @@ export default async function HomePage() {
       <FeaturedProducts />
       <LatestNews />
       <Testimonial />
-      <PotensiDesa /> {/* <-- 2. Tambahkan di sini */}
+      <PotensiDesa />
       <CTA />
     </main>
   );
